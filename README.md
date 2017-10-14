@@ -22,7 +22,7 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git https://github.com/AYTOOR/aytoor.git
+git clone https://github.com/AYTOOR/aytoor.git
 cd aytoor
 chmod +x beyond.sh
 ./beyond.sh install
@@ -37,11 +37,11 @@ screen ./autobd.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git https://github.com/AYTOOR/aytoor.git && cd aytoor && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/AYTOOR/aytoor.git && cd aytoor && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
 
 OR
 
-cd $HOME && git https://github.com/AYTOOR/aytoor.git && cd aytoor && chmod +x beyond.sh && ./beyond.sh install && chmod 777 autobd.sh && screen ./autobd.sh
+cd $HOME && git clone https://github.com/AYTOOR/aytoor.git && cd aytoor && chmod +x beyond.sh && ./beyond.sh install && chmod 777 autobd.sh && screen ./autobd.sh
 ```
 
 * * *
